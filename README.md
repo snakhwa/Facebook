@@ -2,4 +2,4 @@
 
 Initial README.md file
 
-Made change in Xcode
+Made changes in Xcode
