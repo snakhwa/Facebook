@@ -14,6 +14,9 @@
 		EA73C1B61BC71B3400EFA14E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA73C1B41BC71B3400EFA14E /* LaunchScreen.storyboard */; };
 		EA73C1C11BC71B3500EFA14E /* FacebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA73C1C01BC71B3500EFA14E /* FacebookTests.swift */; };
 		EA73C1CC1BC71B3500EFA14E /* FacebookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA73C1CB1BC71B3500EFA14E /* FacebookUITests.swift */; };
+		EADDF5C91BC7297700299618 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADDF5C81BC7297700299618 /* HomeViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		EADDF5CB1BC729B400299618 /* Home2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADDF5CA1BC729B400299618 /* Home2ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		EADDF5CD1BC7313C00299618 /* ThrillistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADDF5CC1BC7313C00299618 /* ThrillistViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		EA73C1C71BC71B3500EFA14E /* FacebookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA73C1CB1BC71B3500EFA14E /* FacebookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookUITests.swift; sourceTree = "<group>"; };
 		EA73C1CD1BC71B3500EFA14E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EADDF5C81BC7297700299618 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EADDF5CA1BC729B400299618 /* Home2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home2ViewController.swift; sourceTree = "<group>"; };
+		EADDF5CC1BC7313C00299618 /* ThrillistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThrillistViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		EA73C19F1BC71B3400EFA14E = {
 			isa = PBXGroup;
 			children = (
+				EADDF5C81BC7297700299618 /* HomeViewController.swift */,
 				EA73C1AA1BC71B3400EFA14E /* Facebook */,
 				EA73C1BF1BC71B3500EFA14E /* FacebookTests */,
 				EA73C1CA1BC71B3500EFA14E /* FacebookUITests */,
@@ -100,6 +107,8 @@
 				EA73C1AB1BC71B3400EFA14E /* AppDelegate.swift */,
 				EA73C1AD1BC71B3400EFA14E /* ViewController.swift */,
 				EA73C1AF1BC71B3400EFA14E /* Main.storyboard */,
+				EADDF5CC1BC7313C00299618 /* ThrillistViewController.swift */,
+				EADDF5CA1BC729B400299618 /* Home2ViewController.swift */,
 				EA73C1B21BC71B3400EFA14E /* Assets.xcassets */,
 				EA73C1B41BC71B3400EFA14E /* LaunchScreen.storyboard */,
 				EA73C1B71BC71B3400EFA14E /* Info.plist */,
@@ -260,6 +269,9 @@
 			files = (
 				EA73C1AE1BC71B3400EFA14E /* ViewController.swift in Sources */,
 				EA73C1AC1BC71B3400EFA14E /* AppDelegate.swift in Sources */,
+				EADDF5CB1BC729B400299618 /* Home2ViewController.swift in Sources */,
+				EADDF5C91BC7297700299618 /* HomeViewController.swift in Sources */,
+				EADDF5CD1BC7313C00299618 /* ThrillistViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +496,7 @@
 				EA73C1D21BC71B3500EFA14E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA73C1D31BC71B3500EFA14E /* Build configuration list for PBXNativeTarget "FacebookTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +505,7 @@
 				EA73C1D51BC71B3500EFA14E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA73C1D61BC71B3500EFA14E /* Build configuration list for PBXNativeTarget "FacebookUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +514,7 @@
 				EA73C1D81BC71B3500EFA14E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
